@@ -5,7 +5,7 @@ title: Sources
 
 # Sources Monitored
 
-[← Back to Home](./)
+[← Back to Home](index.html)
 
 This tracker monitors the following sources daily for AI and Technology Law developments.
 
