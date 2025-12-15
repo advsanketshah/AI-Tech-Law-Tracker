@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <h1><a href="{{ '/' | relative_url }}" style="color: #0366d6; text-decoration: none;">{{ site.title }}</a></h1>
+    <p>{{ site.description }}</p>
+  </header>
+  
+  <main>
+    {{ content }}
+  </main>
+  
+  <footer style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #e1e4e8; text-align: center; color: #586069; font-size: 0.9rem;">
+    <p>Curated by Sanket Shah | Updated daily at 9:00 AM IST</p>
+  </footer>
+</body>
+</html>
