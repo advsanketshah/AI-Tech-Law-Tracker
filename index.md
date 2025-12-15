@@ -1,9 +1,3 @@
-# AI & Tech Law Tracker
-
-Daily curated developments in AI and Technology Law with practitioner analysis
-
----
-
 ## Latest Entry
 
 **Week 50: December 15-21, 2025** | [View Full Week →](2025/12-december/week-50.html)
