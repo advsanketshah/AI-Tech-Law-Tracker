@@ -4,20 +4,77 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
   <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 </head>
 <body>
-  <header>
-    <h1><a href="{{ '/' | relative_url }}" style="color: #0366d6; text-decoration: none;">{{ site.title }}</a></h1>
-    <p>{{ site.description }}</p>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">
+        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      </h1>
+      <p class="site-description">{{ site.description }}</p>
+    </div>
   </header>
-  
+
+  <!-- Navigation -->
+  <nav class="nav-bar">
+    <div class="container">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/2025/12-december/' | relative_url }}">Archive</a>
+      <a href="{{ '/SOURCES.html' | relative_url }}">Sources</a>
+      <a href="{{ '/about.html' | relative_url }}">About</a>
+      <a href="https://www.linkedin.com/in/advsanketshah/" target="_blank">LinkedIn →</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
   <main>
-    {{ content }}
+    <div class="container">
+      {{ content }}
+    </div>
   </main>
-  
-  <footer style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #e1e4e8; text-align: center; color: #586069; font-size: 0.9rem;">
-    <p>Curated by Sanket Shah | Updated daily at 9:00 AM IST</p>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li><a href="{{ '/2025/12-december/' | relative_url }}">Latest Updates</a></li>
+            <li><a href="{{ '/SOURCES.html' | relative_url }}">Sources</a></li>
+            <li><a href="{{ '/about.html' | relative_url }}">About</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Coverage Areas</h4>
+          <ul>
+            <li>AI Regulation & Policy</li>
+            <li>Data Protection Law</li>
+            <li>Technology Contracts</li>
+            <li>Platform Governance</li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/advsanketshah/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/advsanketshah/AI-Tech-Law-Tracker" target="_blank">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="copyright">
+        <p><strong>Copyright © 2025 Sanket Shah. All rights reserved.</strong></p>
+        <p class="mt-1">Published for informational purposes only. Not legal advice. Consult qualified counsel for specific situations.</p>
+        <p class="mt-1">Updated daily at 9:00 AM IST</p>
+      </div>
+    </div>
   </footer>
 </body>
 </html>
