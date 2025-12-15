@@ -5,6 +5,12 @@ title: Week 50 - December 2025
 
 # Week 50: December 15-21, 2025
 
+[← Back to Home](../../index.html)
+
+---
+
+## December 15, 2025
+
 [← Back to Home](../../)
 
 ---
