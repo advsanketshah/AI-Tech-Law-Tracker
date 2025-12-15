@@ -1,17 +1,3 @@
----
-layout: default
-title: Home
----
-
-# AI & Tech Law Tracker
-
-**Daily curated developments in AI and Technology Law**
-
-Curated by [Sanket Shah](---
-layout: default
-title: Home
----
-
 # AI & Tech Law Tracker
 
 **Daily curated developments in AI and Technology Law**
@@ -22,47 +8,26 @@ Curated by [Sanket Shah](https://www.linkedin.com/in/advsanketshah/)
 
 ## Latest Updates
 
-**Current Week:** [Week 50 - December 15-21, 2025](./2025/12-december/week-50)
+**Current Week:** [Week 50 - December 15-21, 2025](2025/12-december/week-50.html)
+
+**Recent Highlights:**
+- Trump executive order challenges state AI laws
+- State AGs demand AI safety protocols  
+- Robin AI collapse signals funding crunch
 
 ---
 
-## About
+## Archive
 
-This tracker monitors significant developments in AI regulation, technology law, and digital policy with practitioner analysis.
-
-**Coverage:** AI regulation (US, EU, UK, India) | Data protection | Platform governance | Cybersecurity
-
----
-
-## Quick Links
-
-- [Sources Monitored](./SOURCES)
-- [December 2025](./2025/12-december/)
+### 2025
+- [December 2025](2025/12-december/)
 
 ---
 
-*Updated daily at 9:00 AM IST*)
+## Resources
 
----
-
-## Latest Updates
-
-**Current Week:** [Week 50 - December 15-21, 2025](./2025/12-december/week-50)
-
----
-
-## About
-
-This tracker monitors significant developments in AI regulation, technology law, and digital policy with practitioner analysis.
-
-**Coverage:** AI regulation (US, EU, UK, India) | Data protection | Platform governance | Cybersecurity
-
----
-
-## Quick Links
-
-- [Sources Monitored](./SOURCES)
-- [December 2025](./2025/12-december/)
+- [Sources Monitored](SOURCES.html)
+- [About](about.html)
 
 ---
 
