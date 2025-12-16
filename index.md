@@ -44,7 +44,7 @@
       <li>State AGs demand AI safety protocols from Microsoft, OpenAI, Google, others</li>
       <li>Robin AI collapses - first major legal AI funding casualty</li>
     </ul>
-    <a href="2025/12-december/week-50/dec-15.html" class="view-full" style="display: inline-flex;">Read Full Day →</a>
+    <a href="2025/12-december/week-50-dec-15.html" class="view-full" style="display: inline-flex;">Read Full Day →</a>
   </div>
 </section>
 
