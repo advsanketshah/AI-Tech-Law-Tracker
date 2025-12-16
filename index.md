@@ -1,32 +1,59 @@
-<section>
-  <div class="featured-card">
+<section style="margin-top: 3rem;">
+  <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem;">
+    <span class="status-dot"></span>
+    <h2 style="margin: 0;">Live Updates</h2>
+  </div>
+
+  <div class="featured-card" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); border-color: #f59e0b;">
     <div class="featured-header">
       <div>
-        <span class="card-badge live">LIVE</span>
-        <h2 style="margin-top: 0.5rem;">Week 50: December 15-21, 2025</h2>
+        <span class="card-badge" style="background: #f59e0b; color: white;">LATEST</span>
+        <h3 style="margin-top: 0.75rem; font-size: 1.8rem; color: #92400e;">December 16, 2025 | 9:00 AM IST</h3>
       </div>
-      <a href="2025/12-december/week-50.html" class="view-full">View Full Week →</a>
+      <a href="2025/12-december/week-50/dec-16.html" class="view-full" style="background: #f59e0b;">Read Full Day →</a>
     </div>
     
-    <div class="development-item">
-      <h4>US Federal vs. State AI Regulation Showdown</h4>
-      <p>Trump executive order establishes AI Litigation Task Force to challenge state laws. California and Colorado comprehensive frameworks under constitutional attack. Legal uncertainty for multi-state compliance.</p>
+    <div class="development-item" style="border-left-color: #f59e0b;">
+      <h4>Businesses Face "Confusing Patchwork" as Federal-State AI Conflict Deepens</h4>
+      <p>Fortune report reveals major corporations defaulting to EU AI Act standards (ISO 42001) as federal-state conflict creates compliance uncertainty. Enterprise CIOs ignoring federal deregulation signals, preparing for strictest plausible standard instead.</p>
+      <p style="margin-top: 0.75rem;"><strong>Why it matters:</strong> Regulatory chaos accidentally strengthening EU's position as global AI standard - opposite of Trump administration's deregulation goals.</p>
     </div>
     
-    <div class="development-item">
-      <h4>State AGs Demand AI Safety Protocols</h4>
-      <p>Multi-state coordinated enforcement action targeting Microsoft, OpenAI, Google, Anthropic, Meta for "delusional outputs." Demands mirror cybersecurity breach standards.</p>
+    <div class="development-item" style="border-left-color: #f59e0b;">
+      <h4>CSIS Report: Federal Preemption Strategy "Undermines" US Tech Leadership</h4>
+      <p>Center-right think tank releases analysis contradicting White House rationale. Report argues targeting state laws before federal framework exists is "deeply out of touch" with public sentiment (50%+ Americans now more concerned than excited about AI).</p>
     </div>
-    
-    <div class="development-item">
-      <h4>Robin AI Collapses - Legal AI Funding Crunch</h4>
-      <p>First major casualty in legal AI space. Services team acquired, tech assets still in negotiation. Signal: investors demanding profitability over potential.</p>
+
+    <div class="development-item" style="border-left-color: #f59e0b;">
+      <h4>EU Proposes AI Act Simplification - High-Risk Rules Delayed to December 2027</h4>
+      <p>European Commission acknowledges implementation challenges, delays high-risk AI requirements by 16 months. Shifts AI literacy obligations from companies to governments. Represents significant concession to industry pressure after 45 companies demanded "clock-stop."</p>
     </div>
   </div>
 </section>
 
 <section>
-  <h2>What This Tracker Covers</h2>
+  <h2>Previous Updates</h2>
+  
+  <div class="card">
+    <div class="card-header">
+      <span class="card-badge">Dec 15</span>
+      <h3 style="font-size: 1.3rem; margin: 0;">Sunday's Developments</h3>
+    </div>
+    <ul style="color: var(--gray); line-height: 1.8; margin-left: 1.2rem; margin-bottom: 1rem;">
+      <li>Trump Executive Order establishes AI Litigation Task Force to challenge state laws</li>
+      <li>State AGs demand AI safety protocols from Microsoft, OpenAI, Google, others</li>
+      <li>Robin AI collapses - first major legal AI funding casualty</li>
+    </ul>
+    <a href="2025/12-december/week-50/dec-15.html" class="view-full" style="display: inline-flex;">Read Full Day →</a>
+  </div>
+</section>
+
+<section>
+  <h2>About This Tracker</h2>
+
+  <p style="color: var(--gray); line-height: 1.8; margin-bottom: 2rem;">
+    This tracker monitors significant regulatory, legislative, and industry developments in AI law and technology policy. Each entry includes factual summary, practical implications, and broader context.
+  </p>
   
   <div class="grid grid-3">
     <div class="card">
@@ -103,13 +130,29 @@
 </section>
 
 <section>
+  <h2>Archive</h2>
+  
+  <div class="card">
+    <h3 style="font-size: 1.4rem; margin-bottom: 1rem;">2025</h3>
+    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+      <a href="2025/12-december/week-50.html" class="quick-link">Week 50: Dec 15-21</a>
+    </div>
+  </div>
+
+  <p style="color: var(--gray); margin-top: 1.5rem;">
+    <strong>Browse by Topic:</strong> (Coming soon)<br>
+    US Regulation | EU AI Act | Data Privacy | Court Decisions | Industry News
+  </p>
+</section>
+
+<section>
   <h2>Resources</h2>
   
   <div class="quick-links">
     <a href="SOURCES.html" class="quick-link">📚 Sources Monitored</a>
     <a href="about.html" class="quick-link">🔍 Methodology</a>
     <a href="2025/12-december/" class="quick-link">📁 December Archive</a>
-    <a href="https://github.com/advsanketshah/AI-Tech-Law-Tracker" class="quick-link">⭐ GitHub Repo</a>
+    <a href="https://github.com/advsanketshah/AI-Tech-Law-Tracker" class="quick-link" target="_blank">⭐ GitHub Repo</a>
   </div>
 </section>
 
