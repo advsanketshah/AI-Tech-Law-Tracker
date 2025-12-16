@@ -1,97 +1,140 @@
-## Latest Entry
+<section>
+  <div class="featured-card">
+    <div class="featured-header">
+      <div>
+        <span class="card-badge live">LIVE</span>
+        <h2 style="margin-top: 0.5rem;">Week 50: December 15-21, 2025</h2>
+      </div>
+      <a href="2025/12-december/week-50.html" class="view-full">View Full Week →</a>
+    </div>
+    
+    <div class="development-item">
+      <h4>US Federal vs. State AI Regulation Showdown</h4>
+      <p>Trump executive order establishes AI Litigation Task Force to challenge state laws. California and Colorado comprehensive frameworks under constitutional attack. Legal uncertainty for multi-state compliance.</p>
+    </div>
+    
+    <div class="development-item">
+      <h4>State AGs Demand AI Safety Protocols</h4>
+      <p>Multi-state coordinated enforcement action targeting Microsoft, OpenAI, Google, Anthropic, Meta for "delusional outputs." Demands mirror cybersecurity breach standards.</p>
+    </div>
+    
+    <div class="development-item">
+      <h4>Robin AI Collapses - Legal AI Funding Crunch</h4>
+      <p>First major casualty in legal AI space. Services team acquired, tech assets still in negotiation. Signal: investors demanding profitability over potential.</p>
+    </div>
+  </div>
+</section>
 
-**Week 50: December 15-21, 2025** | [View Full Week →](2025/12-december/week-50.html)
+<section>
+  <h2>What This Tracker Covers</h2>
+  
+  <div class="grid grid-3">
+    <div class="card">
+      <h3 style="font-size: 1.3rem; color: var(--primary);">What Happened</h3>
+      <p>Factual summary with authoritative sources. No spin, no speculation.</p>
+    </div>
+    
+    <div class="card">
+      <h3 style="font-size: 1.3rem; color: var(--primary);">Why It Matters</h3>
+      <p>Practical implications for organizations, practitioners, and policymakers.</p>
+    </div>
+    
+    <div class="card">
+      <h3 style="font-size: 1.3rem; color: var(--primary);">Context</h3>
+      <p>How this fits into the broader regulatory landscape.</p>
+    </div>
+  </div>
+  
+  <div class="grid grid-2" style="margin-top: 2rem;">
+    <div class="info-box">
+      <h4>Coverage Focus</h4>
+      <ul>
+        <li>AI regulation & compliance (US, EU, UK, India, Global)</li>
+        <li>Data protection and privacy law</li>
+        <li>Commercial technology law</li>
+        <li>Platform governance & digital policy</li>
+        <li>Cybersecurity frameworks</li>
+      </ul>
+    </div>
+    
+    <div class="info-box">
+      <h4>Selection Criteria</h4>
+      <ul>
+        <li>Materially impacts legal/regulatory frameworks</li>
+        <li>Affects business operations or strategy</li>
+        <li>No commentary-only articles</li>
+        <li>No duplicate coverage</li>
+        <li>Verified from authoritative sources</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-**This Week's Developments:**
+<section class="bio-section">
+  <div class="bio-header">
+    <h3>About the Curator</h3>
+    <a href="https://www.linkedin.com/in/advsanketshah/" class="linkedin-badge">Connect on LinkedIn</a>
+  </div>
+  
+  <p style="font-size: 1.1rem; color: var(--gray); margin-bottom: 1.5rem;"><strong>Sanket Shah</strong> | Data Protection & Tech Lawyer</p>
+  
+  <div class="grid grid-2">
+    <div>
+      <h4 style="margin-bottom: 1rem;">Core Practice Areas</h4>
+      <ul style="color: var(--gray); line-height: 2;">
+        <li><strong>Data Protection Frameworks</strong> - DPDPA, GDPR, cross-border compliance</li>
+        <li><strong>External General Counsel</strong> - On-demand support for IT firms</li>
+        <li><strong>Commercial Contracts</strong> - SaaS, MSAs, software licensing</li>
+      </ul>
+    </div>
+    
+    <div>
+      <h4 style="margin-bottom: 1rem;">Specializations</h4>
+      <ul style="color: var(--gray); line-height: 2;">
+        <li><strong>Legal Process Automation</strong> - Custom workflows for efficiency</li>
+        <li><strong>AI Governance & Compliance</strong> - Algorithmic accountability, model governance</li>
+      </ul>
+    </div>
+  </div>
+  
+  <p style="margin-top: 1.5rem; padding: 1.5rem; background: var(--light-gray); border-radius: 8px; color: var(--gray); font-style: italic;">
+    "I built this tracker to make sense of the rapidly evolving AI regulatory landscape - and share those insights with practitioners who need to stay current without drowning in noise."
+  </p>
+</section>
 
-**US Federal vs. State AI Regulation Showdown**  
-Trump executive order establishes AI Litigation Task Force to challenge state laws. California and Colorado comprehensive frameworks under constitutional attack. Legal uncertainty for multi-state compliance.
+<section>
+  <h2>Resources</h2>
+  
+  <div class="quick-links">
+    <a href="SOURCES.html" class="quick-link">📚 Sources Monitored</a>
+    <a href="about.html" class="quick-link">🔍 Methodology</a>
+    <a href="2025/12-december/" class="quick-link">📁 December Archive</a>
+    <a href="https://github.com/advsanketshah/AI-Tech-Law-Tracker" class="quick-link">⭐ GitHub Repo</a>
+  </div>
+</section>
 
-**State AGs Demand AI Safety Protocols**  
-Multi-state coordinated enforcement action targeting Microsoft, OpenAI, Google, Anthropic, Meta for "delusional outputs." Demands mirror cybersecurity breach standards - transparent audits, incident reporting, pre-deployment testing.
+<section style="background: var(--light-gray); padding: 2rem; border-radius: 12px; margin-top: 3rem;">
+  <h3 style="margin-bottom: 1rem;">How to Use This Tracker</h3>
+  
+  <div class="grid grid-2">
+    <div>
+      <h4 style="color: var(--primary); margin-bottom: 0.5rem;">Daily Updates</h4>
+      <p style="color: var(--gray);">Follow me on <a href="https://www.linkedin.com/in/advsanketshah/">LinkedIn</a> or watch this repository for daily posts at 9:00 AM IST.</p>
+    </div>
+    
+    <div>
+      <h4 style="color: var(--primary); margin-bottom: 0.5rem;">Research</h4>
+      <p style="color: var(--gray);">Use browser search (Ctrl/Cmd + F) or GitHub's search. All entries timestamped and source-linked.</p>
+    </div>
+  </div>
+</section>
 
-**Robin AI Collapses - Legal AI Funding Crunch**  
-First major casualty in legal AI space. Services team acquired, tech assets still in negotiation. Signal: investors demanding profitability over potential.
-
-[Read Full Analysis →](2025/12-december/week-50.html)
-
----
-
-## About This Tracker
-
-This tracker monitors significant regulatory, legislative, and industry developments in AI law and technology policy. Each entry includes:
-
-- **What happened** - Factual summary with sources
-- **Why it matters** - Practical implications for organizations, practitioners, and policymakers
-- **Context** - How this fits into the broader regulatory landscape
-
-**Coverage Focus:**
-- AI regulation and compliance (US, EU, UK, India, Global)
-- Data protection and privacy law
-- Commercial technology law
-- Platform governance and digital policy
-- Cybersecurity frameworks
-
-**Selection Criteria:** Only developments that materially impact legal/regulatory frameworks or business operations. No commentary-only articles. No duplicates.
-
----
-
-## About the Curator
-
-**Sanket Shah** | Data Protection & Tech Lawyer  
-[LinkedIn](https://www.linkedin.com/in/advsanketshah/)
-
-I specialize in AI governance, data compliance, and commercial contracts for technology companies. My practice focuses on:
-
-- **Data Protection Frameworks** - Implementing DPDPA, GDPR, and cross-border privacy compliance
-- **External General Counsel** - On-demand legal support for IT firms, integrated with product development cycles
-- **Commercial Contracts** - SaaS agreements, MSAs, software licensing with risk-balanced terms
-- **Legal Process Automation** - Building custom workflows to reduce administrative overhead
-- **AI Governance & Compliance** - Advising on algorithmic accountability, model governance, and regulatory readiness
-
-I built this tracker to make sense of the rapidly evolving AI regulatory landscape - and share those insights with practitioners who need to stay current without drowning in noise.
-
----
-
-## Archive
-
-**2025**
-- [December](2025/12-december/) | Week 50
-
-**Browse by Topic:** (Coming soon)  
-US Regulation | EU AI Act | Data Privacy | Court Decisions | Industry News
-
----
-
-## Resources
-
-- [Sources Monitored](SOURCES.html) - 30+ regulatory bodies, legal publishers, and industry sources
-- [Methodology](about.html) - How entries are selected and analyzed
-- [RSS Feed](feed.xml) - Subscribe for updates (coming soon)
-
----
-
-## How to Use This Tracker
-
-**For Daily Updates:** Watch this repository or follow me on [LinkedIn](https://www.linkedin.com/in/advsanketshah/)
-
-**For Research:** Use browser search (Ctrl/Cmd + F) or GitHub's search function. All entries are timestamped and source-linked.
-
-**For Context:** Each weekly file includes commentary section analyzing trends and connections between developments.
-
----
-
-## Copyright & Disclaimer
-
-**Copyright © 2025 Sanket Shah. All rights reserved.**
-
-This tracker is published for informational and educational purposes only. Content represents personal analysis and should not be construed as legal advice. Readers should consult qualified legal counsel for specific situations.
-
-**Permitted Use:** Share links, reference with attribution, use for research. Republishing substantial portions requires permission.
-
-**Sources:** All entries link to original sources. I do not claim ownership of developments reported - only the curation and analysis.
-
----
-
-*Last updated: December 15, 2025 | 4:15 PM IST*  
-*Updates posted daily at 9:00 AM IST*
+<section style="border-top: 2px solid var(--border); padding-top: 2rem; margin-top: 3rem;">
+  <h3 style="font-size: 1.3rem; margin-bottom: 1rem;">Copyright & Disclaimer</h3>
+  <p style="color: var(--gray); line-height: 1.8;">
+    <strong>Copyright © 2025 Sanket Shah.</strong> All rights reserved. This tracker is published for informational and educational purposes only. Content represents personal analysis and should not be construed as legal advice. Readers should consult qualified legal counsel for specific situations.
+  </p>
+  <p style="color: var(--gray); margin-top: 1rem; line-height: 1.8;">
+    <strong>Permitted Use:</strong> Share links, reference with attribution, use for research. Republishing substantial portions requires permission.
+  </p>
+</section>
