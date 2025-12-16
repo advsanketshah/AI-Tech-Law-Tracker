@@ -612,3 +612,299 @@ footer {
     border: 1px solid black;
   }
 }
+
+/* Week Page Specific Styles */
+
+.week-header {
+  background: linear-gradient(135deg, var(--light-gray) 0%, white 100%);
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 3rem;
+  border-left: 5px solid var(--primary);
+}
+
+.week-header h1 {
+  color: var(--primary);
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.week-meta {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  color: var(--gray);
+  font-size: 0.95rem;
+}
+
+.week-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  color: var(--gray);
+  font-size: 0.9rem;
+}
+
+.breadcrumb a {
+  color: var(--primary);
+  transition: all 0.2s ease;
+}
+
+.breadcrumb a:hover {
+  color: var(--primary-dark);
+}
+
+.breadcrumb-separator {
+  color: var(--border);
+}
+
+/* Day Section */
+.day-section {
+  margin-bottom: 4rem;
+}
+
+.day-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 3px solid var(--primary);
+}
+
+.day-badge {
+  background: var(--primary);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.day-header h2 {
+  margin: 0;
+  color: var(--dark);
+  font-size: 1.8rem;
+}
+
+/* Category Sections */
+.category-section {
+  margin-bottom: 3rem;
+}
+
+.category-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.category-icon {
+  width: 40px;
+  height: 40px;
+  background: var(--light-gray);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+.category-header h3 {
+  margin: 0;
+  color: var(--primary);
+  font-size: 1.5rem;
+}
+
+/* Entry Cards */
+.entry-card {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.entry-card:hover {
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  transform: translateY(-2px);
+}
+
+.entry-header {
+  margin-bottom: 1.5rem;
+}
+
+.entry-title {
+  color: var(--dark);
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.entry-meta {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.meta-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.8rem;
+  background: var(--light-gray);
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--gray);
+}
+
+.meta-badge.source {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.meta-badge.jurisdiction {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.meta-badge.date {
+  background: #f3e8ff;
+  color: #6b21a8;
+}
+
+.entry-section {
+  margin-bottom: 1.5rem;
+}
+
+.entry-section-label {
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+
+.entry-section-content {
+  color: var(--gray);
+  line-height: 1.8;
+}
+
+.entry-section-content strong {
+  color: var(--dark);
+}
+
+.entry-divider {
+  margin: 1.5rem 0;
+  border: none;
+  border-top: 1px solid var(--border);
+}
+
+/* Commentary Section */
+.commentary-section {
+  background: linear-gradient(135deg, #f8fafc 0%, #e0f2fe 100%);
+  border-left: 5px solid var(--primary);
+  border-radius: 12px;
+  padding: 2.5rem;
+  margin-top: 4rem;
+}
+
+.commentary-section h3 {
+  color: var(--primary);
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.commentary-content {
+  color: var(--gray);
+  line-height: 1.8;
+}
+
+.commentary-content h4 {
+  color: var(--dark);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.commentary-content p {
+  margin-bottom: 1.5rem;
+}
+
+.commentary-content strong {
+  color: var(--dark);
+  font-weight: 600;
+}
+
+/* Update Footer */
+.update-footer {
+  margin-top: 4rem;
+  padding: 2rem;
+  background: var(--light-gray);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.update-footer p {
+  color: var(--gray);
+  margin-bottom: 0.5rem;
+}
+
+.update-footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.update-footer-links a {
+  color: var(--primary);
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.update-footer-links a:hover {
+  color: var(--primary-dark);
+}
+
+/* Responsive adjustments for week pages */
+@media (max-width: 768px) {
+  .week-header h1 {
+    font-size: 2rem;
+  }
+  
+  .day-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .entry-card {
+    padding: 1.5rem;
+  }
+  
+  .entry-title {
+    font-size: 1.2rem;
+  }
+  
+  .entry-meta {
+    gap: 0.75rem;
+  }
+  
+  .commentary-section {
+    padding: 1.5rem;
+  }
+}
